@@ -24,7 +24,7 @@ function Footer (){
   return(
     <div>
       <footer>
-        <small>© 2023 kanchisa development. All rights reserved.</small>
+        <small>© 2023 zonda development. All rights reserved.</small>
     </footer>
     </div>
 

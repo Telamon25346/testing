@@ -3,34 +3,58 @@ import ReactDOM from 'react-dom/client'
 import './index.css'
 import myImage from './logo192.png'
 
-function OrderList (){
+function Header (){
   return (
     <div>
       <header>
-        <nav>
+      <nav className="headernav">
+      <img className="reactimage" src={myImage} alt="Link to React website"></img>
           <ul>
-            <li><a href="#">Home</a></li>
+            <li><a href="#">Pricing</a></li>
             <li><a href="#">About</a></li>
-            <li><a href="#">Services</a></li>
             <li><a href="#">Contact</a></li>
-            <li><a href="#"><img src={myImage} alt="Link to React website" width="16px"></img></a></li>
           </ul>
         </nav>
       </header>
-      <h1> welcome to my react website! </h1>
-      <p>here are some of the many wonderful reasons why I love react.js:</p>
+    </div>
+  )
+}
+
+function Footer (){
+  return(
+    <div>
+      <footer>
+        <small>© 2023 kanchisa development. All rights reserved.</small>
+    </footer>
+    </div>
+
+  )
+}
+
+function MainContent (){
+  return (
+    <div>
+      <h1> Welcome to ReactFacts! </h1>
+      <p className="bodyparagraph">Here are some wonderful tidbits about the react.js library:</p>
       <ol>
         <li>I love react</li>
         <li>react is working so well</li>
         <li>hope this list works</li>
       </ol>
-      <footer>
-        <p>© 20xx kanchisa development. All rights reserved.</p>
-      </footer>
+    </div>
+  )
+}
+
+function Page (){
+  return (
+    <div>
+      <Header />
+      <MainContent />
+      <Footer />
     </div>
   )
 }
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
-root.render(<OrderList />)
+root.render(<Page />)

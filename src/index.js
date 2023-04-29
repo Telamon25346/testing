@@ -2,19 +2,9 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import './index.css'
 import Header from './Header.js'
+import Footer from './Footer.js'
 
 
-
-function Footer (){
-  return(
-    <div>
-      <footer>
-        <small>© 2023 zonda development. All rights reserved.</small>
-    </footer>
-    </div>
-
-  )
-}
 
 function MainContent (){
   return (

@@ -1,24 +1,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import './index.css'
-import myImage from './logo192.png'
+import Header from './Header.js'
 
-function Header (){
-  return (
-    <div>
-      <header>
-      <nav className="headernav">
-      <img className="reactimage" src={myImage} alt="Link to React website"></img>
-          <ul>
-            <li><a href="#">Pricing</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
-        </nav>
-      </header>
-    </div>
-  )
-}
+
 
 function Footer (){
   return(
@@ -54,7 +39,6 @@ function Page (){
     </div>
   )
 }
-
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
 root.render(<Page />)

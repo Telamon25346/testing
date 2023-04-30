@@ -1,6 +1,7 @@
-h1 {
+h1.funfacts {
     font-family: "Helvetica Neue", sans-serif;
     font-weight: bold;
+    font-size: 50px;
     color: #ffffff;
     margin-left: 1rem;
 }
@@ -9,8 +10,14 @@ ul {
     margin: 20px;
     padding: 10;
     font-family: "Helvetica Neue", sans-serif;
-    font-size: 20px;
+    font-size: 30px;
     list-style-type: disc;
     color: rgb(255, 255, 255);
 }
+
+ul li::marker {
+    color:rgb(0, 225, 255);
+    font-size: rem;
+}
+
 

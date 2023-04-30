@@ -9,9 +9,16 @@ this is if we want to seperate the files.
 */
 
 body { 
+    
     background-color: rgb(33, 33, 36); 
     margin: 0;
+
+    background-image: url("./assets/reactimagee.png");
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: 11rem;
 }
+
 
 /* this css above turns the background of our page blue. 
 

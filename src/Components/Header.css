@@ -1,15 +1,13 @@
 header {
-    background-color: #333;
+    background-color: #4b4a4a;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
 header img{
     margin-left: 1rem;
-    margin-right: 1rem;
+    margin-right: 1px;
 }
-
 header > * {
     /* this makes all the children of this header be affected with CSS styling */
 }
@@ -17,13 +15,20 @@ header > * {
 header .reactfax{
     font-family: "Helvetica Neue", sans-serif;
     font-weight: bold;
-    color: #00eeff;
+    color: #ffffff;
     margin-right:auto;
+    margin-left: 1rem;
 }
 
-header .course{
+header a{
     margin-right: 1rem;
     font-family: "Helvetica Neue", sans-serif;
     font-weight: bold;
+    font-size: 30px;
     color: #ffffff;
+    text-decoration: none;
+}
+
+header a:hover {
+    color: grey;
 }

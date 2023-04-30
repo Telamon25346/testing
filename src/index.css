@@ -10,13 +10,8 @@ this is if we want to seperate the files.
 
 body { 
     
-    background-color: rgb(33, 33, 36); 
+    background-color: rgb(218, 218, 218); 
     margin: 0;
-
-    background-image: url("./assets/reactimagee.png");
-    background-repeat: no-repeat;
-    background-position-x: right;
-    background-position-y: 11rem;
 }
 
 

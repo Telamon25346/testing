@@ -1,15 +1,16 @@
 import { useState } from 'react'
 import './Header.css'
-import ReactImage from '../assets/reactimag.png'
+import PaganiLogo from '../assets/pagani.png'
 
 function Header() {
   return (
     <>
     <div>
       <header>
-        <img src={ReactImage} width="40px"></img>
-        <h1 className='reactfax'>ReactFacts</h1>
-        <h1 className='course'>React Course - Project 1</h1>
+        <img src={PaganiLogo} width="100px"></img>
+        <h1 className='reactfax'>Pagani zonda Riviera</h1>
+        <a className='course' href="#">Home</a>
+        <a href="#">Gallery </a>
       </header>
     </div>
     </>

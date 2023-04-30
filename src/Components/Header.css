@@ -1,0 +1,29 @@
+header {
+    background-color: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+header > * {
+    /* this makes all the children of this header be affected with CSS styling */
+}
+
+header .reactfax{
+    font-family: "Helvetica Neue", sans-serif;
+    font-weight: bold;
+    color: #00eeff;
+    margin-right:auto;
+}
+
+header .course{
+    margin-right: 1rem;
+    font-family: "Helvetica Neue", sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+}

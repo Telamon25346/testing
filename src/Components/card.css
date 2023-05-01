@@ -1,0 +1,44 @@
+
+.card img {
+    width: 200px;
+}
+
+.card {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-left: 20px;
+}
+
+.card p{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    margin: 4px;
+    margin-left: 20px;
+}
+
+.lifelessons {
+    max-width: 200px;
+}
+
+
+.cardstats {
+    display: flex;
+    align-items: center;
+}
+
+.rating {
+    margin-left: 3px;
+    color: darkgray;
+}
+
+.USA {
+    margin-left: 3px;
+    color: darkgray;
+}
+
+.bold {
+    font-weight: bold;
+}
+.cardstats img {
+    width: 15px;
+    margin-right: 1rem;
+}

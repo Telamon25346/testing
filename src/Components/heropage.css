@@ -1,0 +1,29 @@
+
+section {
+    padding: 5px;
+}
+
+.hero-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.heroimage {
+    width: auto;
+    max-width: 700px;
+    margin: auto;
+}
+
+.hero-h1 {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 50px;
+}
+
+p {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 30px;
+    white-space: normal;
+    margin-top: 0;
+}
+
+

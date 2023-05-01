@@ -1,13 +1,12 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import Header from './Components/Header.jsx'
-import Paragraph from './Components/Paragraph.jsx'
-import CardBoy from './Components/card.jsx'
+import NavBar from './Components/navbar.jsx'
+import HeroPage from './Components/heropage.jsx'
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Header />
-    <CardBoy />
+    <NavBar />
+    <HeroPage />
   </React.StrictMode>,
 )

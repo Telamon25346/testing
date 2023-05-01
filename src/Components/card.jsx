@@ -13,7 +13,7 @@ function CardBoy () {
                 <span className='rating'>(6) •</span>
                 <span className='USA'>USA</span>
             </div>
-            <p className='lifelessons'> Life Lessons with Nigga Nigagathan</p>
+            <p className='lifelessons'> Life Lessons with random guy</p>
             <p> <span className='bold'> From $126 </span> / person</p>
         </div>
         </>

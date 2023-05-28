@@ -1,23 +1,29 @@
-import './card.css'
-import ManImage from '../assets/man.png'
-import StarImage from '../assets/star.png'
+import './card.css';
+import PhoneIcon from '../assets/phone-solid.svg';
+import EnveloPe from '../assets/envelope-regular.svg';
+import WHISKY from '../assets/mr-whiskerson.png';
 
-function CardBoy () {
-    return (
-        <>
-        <div className='card'>
-            <img src={ManImage}></img>
-            <div className='cardstats'>
-                <img src={StarImage} className='starimage'></img>
-                <span>5.0</span>
-                <span className='rating'>(6) •</span>
-                <span className='USA'>USA</span>
+function CardBoy(props) {
+
+  return (
+  <div className='contacts'>
+
+    <div className="contact-card">
+            <img src={WHISKY} className='cat-img'/>
+            <h3>{props.name}</h3>
+            <div className="phone-info">
+                <img src={PhoneIcon} />
+                <p>{props.phonenumber}</p>
             </div>
-            <p className='lifelessons'> Life Lessons with random guy</p>
-            <p> <span className='bold'> From $126 </span> / person</p>
-        </div>
-        </>
-    )
+            <div className="envelope-info">
+                <img src={EnveloPe} />
+                <p>{props.email}</p>
+            </div>
+    </div>
+
+
+  </div>
+  );
 }
 
-export default CardBoy; 
+export default CardBoy;

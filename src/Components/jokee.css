@@ -1,0 +1,12 @@
+.thejoke {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+

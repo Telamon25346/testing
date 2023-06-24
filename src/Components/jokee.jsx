@@ -4,10 +4,10 @@ function Jokee({setup, punchline}){
 
     return(
         <div className='thejoke'>
-            <p className='setup'>{setup}</p>
-            <p className='punchline'>{punchline}</p>
+            <p>{setup}</p>
+            <p>{punchline}</p>
         </div>
-    );
+    )
 }
 
 export default Jokee;

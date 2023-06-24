@@ -8,14 +8,14 @@ import './index.css'
 import NavBar from './Components/navbar.jsx'
 import HeroPage from './Components/heropage.jsx'
 import CardBoy from './Components/card.jsx'
-import Jokee from './Components/Jokee'
+import Jokee from './Components/jokee.jsx'
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <NavBar />
     <Jokee 
-    setup="Why did the scarecrow win an award?"
+    setup="Why did the scarecrow win the award?"
     punchline="Because he was outstanding in his field."
     />
     <Jokee 
@@ -28,7 +28,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     />
     <Jokee 
     setup="What do you call a cow with no legs?"
-    punchline="Ground beef!"
+    punchline="Ground beefFF!"
     />
 
     

@@ -7,7 +7,7 @@ function Jokee({setup, punchline}){
             <p className='setup'>{setup}</p>
             <p className='punchline'>{punchline}</p>
         </div>
-    );
+    )
 }
 
 export default Jokee;

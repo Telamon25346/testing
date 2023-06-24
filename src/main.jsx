@@ -8,7 +8,7 @@ import './index.css'
 import NavBar from './Components/navbar.jsx'
 import HeroPage from './Components/heropage.jsx'
 import CardBoy from './Components/card.jsx'
-import Jokee from './Components/Jokee'
+import Jokee from './Components/Jokee.jsx'
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
